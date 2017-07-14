@@ -1,0 +1,48 @@
+---
+title: "IS 620 WEB ANALYTICS - WEEK 2 part 2\n|
+  \ Data Analytics  \n"
+author: "Author:MUSA T GANIYU"
+output:
+  html_document:
+    highlight: tango
+    theme: cerulean
+    toc: yes
+    toc_depth: 2
+    toc_float:
+      collapsed: yes
+      number_sections: yes
+      smooth_scroll: no
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
+---
+
+Link:  http://www-personal.umich.edu/~mejn/netdata/polbooks.zip
+Nodes represent books about US politics sold by the online bookseller Amazon.com.  Edges represent frequent co-purchasing of books by the same buyers, as indicated by the "customers who bought this book also bought these other books" feature on Amazon. Nodes have been given values "l", "n", or "c" to indicate whether they are "liberal", "neutral", or "conservative".  
+
+Politician who have more ties to other politicians may be advantaged positions. Because they have many ties, they may have alternative ways to satisfy needs, and hence are less dependent on other individuals. Because they have many ties, they may have access to, and be able to call on more of the resources of the network as a whole. Because they have many ties, they are often third-parties and deal makers in exchanges among others, and can benefit from this brokerage. So, a very simple, but often very effective measure of a politician's centrality and power potential is their degree
+
+
+* Approach:
+
+
+# 1.
+
+First step in this assignment was to create data files required for network analysis.
+
+Data clean up and file formatting was done using R script and worksheet
+
+Steps used for this purpose:
+
+Load data file from Source create raw data files in csv form Use R script to get data in right format create two csv files (1. Node 2. Edges) for data analysis.
+
+# 2.	
+
+I will obtain the follow descriptive statistics:
+a)	 Mean
+b)	Standard Deviation
+c)	Sum
+d)	Variance
+e)	Sum of Square
+f)	Euclidean Normalized Distance
+g)	Minimum and Maximum.
